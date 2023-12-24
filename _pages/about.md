@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Predict, Learn, Optimize. 
 
 profile:
   align: right
@@ -13,14 +13,25 @@ profile:
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
+Hi there! I'm Prathamesh Devadiga, an avid explorer in the world of technology and finance. My passions include Machine Learning, Deep Learning, Natural Language Processing, Web Development, and Finance.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I find joy in delving deep into the intricacies of Machine Learning, getting lost in the world of Deep Learning architectures, and utilizing Natural Language Processing to unravel the true potential of language-based data.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my explorations, I've been drawn to the realms of Web Development. Here, I aim to create seamless digital experiences by combining aesthetics with functionality.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+More recently, I've been fascinated by Systems Engineering and Cybersecurity, appreciating their crucial roles in protecting and strengthening technological infrastructures.
+
+
+I love engaging discussions and sharing insights on [my favorite subreddit](http://reddit.com/r/MachineLearning), where I explore the latest trends and advancements in ML, DL, and NLP.
+
+Feel free to connect with me on Twitter, LinkedIn, Instagram, and GitHub via the following links:
+
+- [Twitter](https://twitter.com/PrathameshD_8)
+- [LinkedIn](https://www.linkedin.com/in/prathamesh-devadiga/)
+- [Instagram](https://www.instagram.com/prathamesh._d/)
+- [GitHub](https://github.com/devadigapratham)
