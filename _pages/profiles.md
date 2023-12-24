@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /people/
+permalink: /catalysis/
 title: catalysis
 description: Media and Impact Achieved
 nav: true
