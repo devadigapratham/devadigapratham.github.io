@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - devadigapratham
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - devadigapratham/Neural-Net-From-Scratch
+  - devadigapratham/GPT-Implementation
+  - devadigapratham/SparseSet-Benchmark
+  - devadigapratham/Potato-Plant-Disease-Classfier
