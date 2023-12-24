@@ -1,1 +1,0 @@
-### Founded and leading the NGO as President.

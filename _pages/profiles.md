@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: Catalysis
+title: catalysis
 description: Media and Impact Achieved
 nav: true
 nav_order: 6
@@ -10,14 +10,14 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: 
-    content: about_einstein.md
+    image: catalysis.png
+    content: catalysis_1.md
     image_circular: false # crops the image to make it circular
     more_info: 
 
   - align: left
     image: 
-    content: about_einstein.md
+    content: catalysis_2.md
     image_circular: false # crops the image to make it circular
     more_info: 
 ---
