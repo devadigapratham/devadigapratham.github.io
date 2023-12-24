@@ -18,16 +18,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hi there! I'm Prathamesh Devadiga, an avid explorer in the world of technology and finance. My passions include Machine Learning, Deep Learning, Natural Language Processing, Web Development, and Finance.
+I'm Prathamesh Devadiga, a student hailing from Udupi, India, currently pursuing my studies at PES University, Bangalore. My primary interests lie in Machine Learning, Data Science, Web Development (Frontend), and Finance.
 
-I find joy in delving deep into the intricacies of Machine Learning, getting lost in the world of Deep Learning architectures, and utilizing Natural Language Processing to unravel the true potential of language-based data.
-
-In my explorations, I've been drawn to the realms of Web Development. Here, I aim to create seamless digital experiences by combining aesthetics with functionality.
-
-More recently, I've been fascinated by Systems Engineering and Cybersecurity, appreciating their crucial roles in protecting and strengthening technological infrastructures.
-
-
-I love engaging discussions and sharing insights on [my favorite subreddit](http://reddit.com/r/MachineLearning), where I explore the latest trends and advancements in ML, DL, and NLP.
+I'm deeply immersed in the worlds of Machine Learning and finance. My expertise lies in leveraging data-driven insights to make informed financial decisions. I'm passionate about transforming complex challenges into intuitive solutions. Whether it's applying cutting-edge ML algorithms to financial analysis or delving into the intricacies of financial markets, I thrive on combining creativity with analytical thinking.
 
 Feel free to connect with me on Twitter, LinkedIn, Instagram, and GitHub via the following links:
 
