@@ -1,0 +1,35 @@
+<div class="card-item col">
+    {%- if talk.redirect -%}
+    <a href="{{ talk.redirect }}">
+    {%- else -%}
+    <a href="{{ talk.url | relative_url }}">
+    {%- endif -%}
+      <div class="card hoverable">
+        <div class="row g-0">
+          {%- if talk.img -%}
+          <div class="card-img col-md-6">
+            {% include figure.html path=talk.img alt="talk thumbnail" %}
+          </div>
+          <div class="col-md-6">
+          {%- else -%}
+          <div class="col-md-12">
+          {%- endif -%}
+            <div class="card-body">
+              <h3 class="card-title text-lowercase">{{ talk.title }}</h3>
+              <p class="card-text">{{ talk.description }}</p>
+              <div class="row ml-1 mr-1 p-0">
+                {%- if talk.slides -%}
+                <div class="slides-icon">
+                  <div class="icon" data-toggle="tooltip" title="Slides">
+                    <a href="{{ talk.slides }}"><i class="fa-brands fa-slideshare slides-icon"></i></a>
+                  </div>
+                </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  

@@ -151,12 +151,12 @@
   "languages": [
     {
       "language": "German",
-      "fluency": "Native speaker"
+      "fluency": "Native speaker",
       "icon":""
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Fluent",
       "icon":""
     }
   ],

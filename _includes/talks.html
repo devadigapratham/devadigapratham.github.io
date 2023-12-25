@@ -1,0 +1,32 @@
+<!-- _includes/talks.html -->
+<div class="grid-sizer"></div>
+{% for talk in site.talks %}
+  <div class="grid-item">
+    {% if talk.redirect -%}
+      <a href="{{ talk.redirect }}">
+    {%- else -%}
+      <a href="{{ talk.url | relative_url }}">
+    {%- endif %}
+    <div class="card hoverable">
+      {%- if talk.img %}
+        {%- include figure.html
+          path=talk.img
+          alt="talk thumbnail" -%}
+      {%- endif %}
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">{{ talk.title }}</h2>
+        <p class="card-text">{{ talk.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {%- if talk.slides -%}
+            <div class="slides-icon">
+              <div class="icon" data-toggle="tooltip" title="Slides">
+                <a href="{{ talk.slides }}"><i class="fab fa-slideshare"></i></a>
+              </div>
+            </div>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+  </div>
+{% endfor %}
