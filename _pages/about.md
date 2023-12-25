@@ -16,7 +16,7 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 I'm Prathamesh Devadiga, a student hailing from Udupi, India, currently pursuing my studies at PES University, Bangalore. My primary interests lie in Machine Learning, Data Science, Web Development (Frontend), and Finance.
 
