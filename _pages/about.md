@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Predict, Learn, Optimize. 
+subtitle: An Aspiring ML Engineer. 
 
 profile:
   align: right
