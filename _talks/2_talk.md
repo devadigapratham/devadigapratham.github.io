@@ -75,6 +75,73 @@ Due to these reasons, it facilitates a proper pipeline architecture, that again,
     ``` 
     This code sets up a basic ZenML pipeline by adding an evaluator step to assess a machine learning model's performance within a project. It initializes, defines, and executes the pipeline within the ZenML framework.
 
-### Real-Life Applications and Project Showcase : 
+### Real-Life Applications : 
 
-Will upload soon!
+To not make things complex, lets take an easy example of prediction of customer churn in a telecommunication company. Customer churn btw is the number of paying customers who fail to become repeat customers.<br><br>
+Using MLFlow:
+```python
+    #This sample code is just to give you an idea.
+
+    #Using MLFLow Experiment here : 
+
+    import pandas as pd 
+    from sklearn.model_selection import train_test_split
+    from sklearn.ensemble import RandomForestClassifier 
+    from sklearn.metrics import accuracy_score 
+    import mlflow 
+
+    data = pd.read_csv("whatever_dataset.csv")
+    
+    '''
+    Do all these processes : 
+        1. Data Clearning
+        2. Data Transformation 
+        3. Dimensionality Reduction 
+        4. Train-Test Split 
+        5. Handling Text/ Categorical Data
+    ''' 
+    X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
+
+    mlflow.set_experiment("customer_churn_prediction")
+    with mlflow.start_run():
+            rf = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf.fit(X_train, y_train)
+    predictions = rf.predict(X_test)
+    accuracy = accuracy_score(y_test, predictions)
+    
+    mlflow.log_param("model_type", "RandomForestClassifier")
+    mlflow.log_metric("accuracy", accuracy)
+    mlflow.sklearn.log_model(rf, "RandomForestModel")
+```
+This code shows the machine learning workflow using the RandomForestClassifier model, integrates MLflow for experiment tracking, logging parameters, metrics, and saving the trained model as an artifact for future reference or deployment.<br><br>
+
+Using ZenML : 
+
+```python
+
+    from zenml.core.steps.evaluator import Evaluator 
+    from zenml.core.repo import Repository
+    from zenml.datasources import CSVDatasource 
+    from zenml.pipelines import TrainingPipeline
+    from zenml.steps.split import RandomSplit 
+
+    repo = Respository.get_instance() 
+
+    data_source = CSVDatasource(name = "Whatever you wanna name it", path = "whatever_dataset.csv")
+
+    training_pipeline = TrainingPipeline(name="CustomerChurnPrediction")
+
+    split = RandomSplit(split_map={"train": 0.8, "eval": 0.2}) 
+
+    evaluator = Evaluator()
+
+    training_pipeline.add_datasource(data_source)
+    training_pipeline.add_split(split)
+    training_pipeline.add_evaluator(evaluator)
+    training_pipeline.run()
+```
+This code sets up a machine learning pipeline using ZenML, specifying data ingestion from a CSV file, data splitting, and model evaluation steps, facilitating the workflow for building and evaluating a churn prediction model.<br><br>
+
+### Conclusion : 
+
+In conclusion, MLFlow and ZenML are really cool tools you could use when you're hoping onto the field of MLOps.  MLFlow is really good to use when you want to have real-time monitoring, model-packaging and experiment tracking.  On other hand, ZenML is cool to be used for data versioning, workflow simplification, collaboration. 
