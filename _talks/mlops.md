@@ -104,14 +104,14 @@ Using MLFlow:
 
     mlflow.set_experiment("customer_churn_prediction")
     with mlflow.start_run():
-            rf = RandomForestClassifier(n_estimators=100, random_state=42)
-    rf.fit(X_train, y_train)
-    predictions = rf.predict(X_test)
-    accuracy = accuracy_score(y_test, predictions)
+        rf = RandomForestClassifier(n_estimators=100, random_state=42)
+        rf.fit(X_train, y_train)
+        predictions = rf.predict(X_test)
+        accuracy = accuracy_score(y_test, predictions)
     
-    mlflow.log_param("model_type", "RandomForestClassifier")
-    mlflow.log_metric("accuracy", accuracy)
-    mlflow.sklearn.log_model(rf, "RandomForestModel")
+        mlflow.log_param("model_type", "RandomForestClassifier")
+        mlflow.log_metric("accuracy", accuracy)
+        mlflow.sklearn.log_model(rf, "RandomForestModel")
 ```
 This code shows the machine learning workflow using the RandomForestClassifier model, integrates MLflow for experiment tracking, logging parameters, metrics, and saving the trained model as an artifact for future reference or deployment.<br><br>
 
