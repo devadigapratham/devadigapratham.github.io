@@ -24,7 +24,9 @@ All of these processes can be done using : `MLOPs` <br>
 - `Model Development` : This is a process of taking a trained machine learning model and integrating it into a production environment, making it accessible for making predictions or inferences on new, unseen data. 
 - `Deployment` : This refers to act of deploying various components of a ML system or an application to production environment. 
 - `Monitoring` : This is where you would essentially, keep a track on how the model is performing. 
-- `Feedback Loops` : As mentioned in the example above, here, you make continuous improvements based on user feedback. <br> 
+- `Feedback Loops` : As mentioned in the example above, here, you make continuous improvements based on user feedback. <br><br>
+<img src="https://ml-ops.org/img/mlops-phasen.jpg" alt="MLOps" width="690" height="500"><br>
+
 
 ### MLFlow : 
 
@@ -35,6 +37,8 @@ MLFlow is a core platform in managing the ML lifecycle, offering tons of functio
     - `Model Packaging` : It provides an interface to package models in different formats, which allows an easy deployment across platforms. MLflow also supports various deployment options, including batch inference, real-time serving through REST APIs, and integration with cloud platforms, simplifying the process of deploying models into production.
     - `Model Registry` : This serves as a centralized repository for managing and versioning machine learning models. Helps track model lineage, and control versions. 
     - `Model Monitoring and Managament` : It allows users to monitor deployed models' performance over time by tracking metrics and comparing them against predefined thresholds. <br><br> 
+<img src="https://www.databricks.com/wp-content/uploads/2020/04/databricks-adds-access-control-to-mlflow-model-registry_01.jpg" alt="MLOps" width="700" height="400"><br><br>
+
     
 - #### **Simple Usecase**: 
     ```python 
@@ -60,6 +64,7 @@ Due to these reasons, it facilitates a proper pipeline architecture, that again,
     - `Simplified Data Workflows` : It simplifies complex data handling tasks by providing you an easy step by step methodology, this makes it easier for the data scientists to manage and understand the data pipeline. 
     - `Collaboration and Control` : Most importantly, ZenML acts like a collaborative platform where all the teams could work together, note the changes, control different versions of data pipelines which if put in an example : Think of it as a shared document where multiple people can edit simultaneously. 
     - `Reproducibility and Monitoring` : ZenML also ensures that when data or models are used by different team members or systems, they produce the same results consistently and accurately! <br><br> 
+    <img src="https://assets-global.website-files.com/65264f6bf54e751c3a776db1/6530058c5159f040612deed1_continuous-training.gif" alt="ZenML" width="690" height="400"><br><br>
 
 - #### **Simple Usecase**: 
     ```python 
@@ -148,4 +153,6 @@ This code sets up a machine learning pipeline using ZenML, specifying data inges
 
 ### Conclusion : 
 
-In conclusion, MLFlow and ZenML are really cool tools you could use when you're hoping onto the field of MLOps.  MLFlow is really good to use when you want to have real-time monitoring, model-packaging and experiment tracking.  On other hand, ZenML is cool to be used for data versioning, workflow simplification, collaboration. 
+In conclusion, MLFlow and ZenML are really cool tools you could use when you're hoping onto the field of MLOps.  MLFlow is really good to use when you want to have real-time monitoring, model-packaging and experiment tracking.  On other hand, ZenML is cool to be used for data versioning, workflow simplification, collaboration.
+<br><br> 
+<img src="https://media.licdn.com/dms/image/D4E22AQEFV68SPGRmKA/feedshare-shrink_800/0/1692866076555?e=1706745600&v=beta&t=G3SoAeSjRVuU7HfJnJfpKkTGCW4X01X1VF_f8S53knY" alt="MLOps" width="400" height="500">
