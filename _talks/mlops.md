@@ -155,4 +155,4 @@ This code sets up a machine learning pipeline using ZenML, specifying data inges
 
 In conclusion, MLFlow and ZenML are really cool tools you could use when you're hoping onto the field of MLOps.  MLFlow is really good to use when you want to have real-time monitoring, model-packaging and experiment tracking.  On other hand, ZenML is cool to be used for data versioning, workflow simplification, collaboration.
 <br><br> 
-<img src="https://media.licdn.com/dms/image/D4E22AQEFV68SPGRmKA/feedshare-shrink_800/0/1692866076555?e=1706745600&v=beta&t=G3SoAeSjRVuU7HfJnJfpKkTGCW4X01X1VF_f8S53knY" alt="MLOps" width="400" height="500">
+<img src="https://media.licdn.com/dms/image/D4E22AQEFV68SPGRmKA/feedshare-shrink_800/0/1692866076555?e=1706745600&v=beta&t=G3SoAeSjRVuU7HfJnJfpKkTGCW4X01X1VF_f8S53knY" alt="MLOps" width="500" height="500">
