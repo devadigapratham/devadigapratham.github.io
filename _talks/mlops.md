@@ -90,6 +90,10 @@ Using MLFlow:
     from sklearn.metrics import accuracy_score 
     import mlflow 
 
+    # Enable auto-logging to store run parameters, metrics, and metadata
+
+    mlflow.autolog()
+
     data = pd.read_csv("whatever_dataset.csv")
     
     '''
