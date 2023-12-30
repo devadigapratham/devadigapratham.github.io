@@ -36,7 +36,7 @@ MLFlow is a core platform in managing the ML lifecycle, offering tons of functio
     - `Experiment Tracking` : MLflow enables users to track and organize experiments by logging parameters, code versions, metrics, and output files. It also facilitates easy comparison of different runs, allowing data scientists to monitor and evaluate model performance across various hyperparameters and configurations.
     - `Model Packaging` : It provides an interface to package models in different formats, which allows an easy deployment across platforms. MLflow also supports various deployment options, including batch inference, real-time serving through REST APIs, and integration with cloud platforms, simplifying the process of deploying models into production.
     - `Model Registry` : This serves as a centralized repository for managing and versioning machine learning models. Helps track model lineage, and control versions. 
-    - `Model Monitoring and Managament` : It allows users to monitor deployed models' performance over time by tracking metrics and comparing them against predefined thresholds. <br><br> 
+    - `Model Monitoring and Management` : It allows users to monitor deployed models' performance over time by tracking metrics and comparing them against predefined thresholds. <br><br> 
 <img src="https://www.databricks.com/wp-content/uploads/2020/04/databricks-adds-access-control-to-mlflow-model-registry_01.jpg" alt="MLOps" width="700" height="400"><br><br>
 
     
