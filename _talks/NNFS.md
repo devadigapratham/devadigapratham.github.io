@@ -8,4 +8,4 @@ category: work
 related_publications: 
 ---
 
-Coming soon!
+Hello everyone, so in this blog, I will be talking about `building` neural networks from `scratch`. ps : this was my first talk. 
